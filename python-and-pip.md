@@ -4,7 +4,7 @@
 #### Windows
 1. Download from https://www.python.org/downloads/ or direct download of the following version:
     1. [Python 3.9.10 64-bit](https://www.python.org/ftp/python/3.9.10/python-3.9.10-amd64.exe)
-    2. [Python 3.8.5 64-bit](https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe) python
+    2. [Python 3.8.5 64-bit](https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe)
     3. [Python 2.7.18 64-bit (last update of Python 2)](https://www.python.org/ftp/python/2.7.18/python-2.7.18.amd64.msi)
 
 2. Set up environment PATH to run `.py`/`python` files
