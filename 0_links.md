@@ -1,7 +1,8 @@
 | Name            | Markdown Code                                  |
 | --------------- | ---------------------------------------------- | 
 |Language||
-|Python| `Install [Python](https://github.com/xfortisfye/303-see-other/blob/main/coding-language.md#installing-python)` |
+|Java| `Install [Java](https://github.com/xfortisfye/303-see-other/blob/main/coding-language.md#java)` |
+|Python| `Install [Python](https://github.com/xfortisfye/303-see-other/blob/main/coding-language.md#python)` |
 |||
 |||
 |Guide||
