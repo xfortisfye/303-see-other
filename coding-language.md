@@ -4,14 +4,14 @@
 Guide to installing code language
 
 -----
-## Installing Java
+## Java
 #### Windows
 1. Download [installer](https://www.oracle.com/java/technologies/downloads)
 2. Set up [environment path](https://github.com/xfortisfye/303-see-other/blob/main/env-path.md)
     1. Usually value is `C:\Program Files\Java\jdk-13.0.2\bin`
 
 -----
-## Installing python
+## Python
 
 #### Windows
 1. Download [manually](https://www.python.org/downloads/) or direct download of the following version:
