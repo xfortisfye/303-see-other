@@ -5,6 +5,6 @@
 |||
 |||
 |Guide||
-|Clone Git Repo| `Cloning GitHub Repository ([Windows](https://github.com/xfortisfye/303-see-other/blob/main/github-setup.md#windows]) or [Linux](https://github.com/xfortisfye/303-see-other/blob/main/github-setup.md#linux))`|
+|Clone Git Repo| `Cloning GitHub Repository ([Windows](https://github.com/xfortisfye/303-see-other/blob/main/github-setup.md#windows) or [Linux](https://github.com/xfortisfye/303-see-other/blob/main/github-setup.md#linux))`|
 |Set up Env Path|`[Set up environment path](https://github.com/xfortisfye/303-see-other/blob/main/env-path.md)`|
 |pip requiremnets|`Install [pip requirements](https://github.com/xfortisfye/303-see-other/blob/main/dependencies.md#installing-pip-requirements)`|
