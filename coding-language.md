@@ -22,10 +22,11 @@ Guide to installing code language
     1. Usually value is `C:\Python38\`
 
 -----
-### Installing pip
+### pip
 1. `curl https://bootstrap.pypa.io/get-pip.py > get-pip.py`
 2. `python get-pip.py`
 3. Update pip with `python -m pip install --upgrade pip`
+
 Guidelines: https://pip.pypa.io/en/stable/installation/
 ----------
 
