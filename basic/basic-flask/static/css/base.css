@@ -1,0 +1,192 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-size: medium !important;
+    font-style: italic !important;
+    opacity: 1 !important; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-size: medium !important;
+    font-style: italic !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    font-size: medium !important;
+    font-style: italic !important;
+}
+
+.site-header .navbar-nav .nav-link {
+    color: white;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+    color: #04AA6D;
+}
+.site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+    color: #cdf27e;
+
+}
+.bg-steel {
+    background-color: #5f788a;
+}
+.bg-navbar{
+    background-color: #535b68;
+}
+.bg-script{
+    background-color: #cdb297;
+}
+.bg-cardbody{
+    background-color: #BBBBC1;
+}
+.bg-cardheader{
+    background-color: #CBCBD1;
+}
+#main {
+    overflow: auto;
+    padding-bottom: 150px;
+}
+#wrap {
+    min-height: 100%;
+}
+html, body {
+    background: #fafafa!important;
+    height:100%;
+}
+.footer{
+    position:relative;
+    margin-top: -150px;
+    height:150px;
+    clear: both;
+    padding-top: 20px;
+}
+
+.content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+body {
+    background: #fafafa;
+    color: #333333;
+    margin-top: 5rem;
+}
+
+.script-font {
+    color: #708090;
+    font-family: Consolas, Monaco, monospace;
+    font-size: 14px;
+}
+.title-font {
+    color: steelblue;
+    font-weight: inherit;
+    font-family: "Segoe UI", Consolas, sans-serif;
+}
+.heading-font {
+    color: #4e555b;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Consolas, sans-serif;
+}
+.details-font1 {
+    color: steelblue;
+    text-transform: uppercase;
+    font-family: Consolas, sans-serif;
+}
+.details-font2 {
+    color: #36362a;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: "Segoe UI", Consolas;
+}
+.details-font3 {
+    color: white;
+    font-weight: lighter;
+    font-size: 11px;
+    text-transform: none;
+    font-family: Calibri, sans-serif;
+}
+.text-font {
+    color: #36362a;
+    font-size: 11px;
+    font-family: "Segoe UI", Consolas;
+}
+.badge {
+    font-size: 1rem;
+    background-color: #739dae;
+}
+.icon-style {
+    height: 24px;
+    width: 24px;
+}
+
+.page-item.active .page-link {
+    background-color: #535b68 !important;
+    border: none;
+    color: white;
+}
+.page-link {
+    color: gray;
+}
+
+/* Horizontal lines */
+hr.solid {
+    border-top: 2px solid #999;
+  }
+
+  hr.hr-text {
+    position: relative;
+    border: none;
+    height: 1px;
+    background: #999;
+  }
+    
+  hr.hr-text::before {
+    content: attr(data-content);
+    display: inline-block;
+    background: #fff;
+    font-weight: bold;
+    font-size: 0.85rem;
+    color: #999;
+    border-radius: 30rem;
+    padding: 0.2rem 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.error-msg-red{
+    color: red;
+}
+
+.max-with-300{
+    max-width: 300px;
+}
+
+.btn-success-purple{
+    background-color: #8D3B72;
+    border-color: #8D3B72;
+}
+.btn-success-purple:hover {
+    background-color: #75315f;
+    border-color: #75315f;
+}
+
+.btn-danger-purple{
+    color: #8D3B72;
+    background-color: #ffffff;
+    border-color: #8D3B72;
+}
+
+.btn-danger-purple:hover{
+    color: #8D3B72;
+    background-color: #f4e4ef;
+    border-color: #8D3B72;
+}

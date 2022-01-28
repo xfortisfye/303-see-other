@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{% block title %}{% endblock %} - BAGATEA</title>
+
+    <!-- Load Bootstrap CSS and Base Website CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/dataTables.bootstrap4.min.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
+    {% block style %}
+    {% endblock style %}
+
+    <!-- Load JavaScript Files -->
+    <script src="{{ url_for('static', filename='js/jquery-3.5.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='js/jquery.formset.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/dataTables.bootstrap4.min.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js" integrity="sha512-2ImtlRlf2VVmiGZsjm9bEyhjGW4dU7B6TNwh/hx/iSByxNENtj3WVE6o/9Lj4TJeVXPi4bnOIMXFIJJAeufa0A==" crossorigin="anonymous"></script>
+    <!-- Load FavIco -->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='/favico/favicon.png') }}">
+
+</head>
+<body>
+<header class="site-header">
+    <nav class="navbar navbar-expand-md navbar-dark bg-navbar fixed-top">
+        <a class="navbar-brand" href="{{ url_for('index') }}">
+            <span><img src="{{ url_for('static', filename='images/bagatea_logo2.PNG') }}" width="126" height="30" class="align-top" alt="BAGATEA"></span>&nbsp;</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
+                aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggle">
+            <ul class="navbar-nav">
+                <a class="nav-item nav-link" href="">{{'Register'}}</a>
+                <a class="nav-item nav-link" href="">{{'Login'}}</a>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+<div id="wrap">
+    <div id="main">
+        <main role="main" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    {% with messages = get_flashed_messages(with_categories=true) %}
+                        {% if messages %}
+                            {% for category, message in messages %}
+                                <div class="alert alert-{{ category }} alert-dismissable alert-{{ category }}">
+                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                    {{ message }}
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                    {% endwith %}
+
+                    {% block content %}
+                    {% endblock content %}
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+{% block javascript %}
+{% endblock javascript %}
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+<script type="text/javascript" src="//cdn.datatables.net/plug-ins/1.10.25/sorting/datetime-moment.js"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/self-xss.min.js') }}"></script>
+</body>
+
+<div id="footer">
+    <hr data-content="{{'A product of ICT3X03 Secure Software Development 📧 deltaatSIT@gmail.com 📧'}}" class="hr-text">
+    <p class="text-center py-3 my-0">&copy; {{'Copyright 2021 by'}} <a href="{{ url_for('index') }}">{{'Bagatea'}}</a></p>
+    {% block footer %}
+    {% endblock footer %}
+    </div>
+</html>
