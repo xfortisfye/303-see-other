@@ -1,4 +1,4 @@
-# github-setup
+# github-notes
 
 ## Install Git
 
