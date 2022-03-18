@@ -26,8 +26,10 @@ Guide to installing dependencies
 -----
 ## Make
 1. [Install](https://sourceforge.net/projects/gnuwin32/files/make/3.81/make-3.81.exe/download?use_mirror=nchc&download=) Make for Windows
-2. Set up [environment path](https://github.com/xfortisfye/303-see-other/blob/main/dependencies.md#environment-path). Usually value is `C:\Program Files (x86)\GnuWin32\bin`
-3. To run the program
+2. Set up [environment path](https://github.com/xfortisfye/303-see-other/blob/main/dependencies.md#environment-path). 
+   1. Usually value is `C:\Program Files (x86)\GnuWin32\bin`
+
+### Run the program
 ```bash
 > cd C:\Path\to\root_folder
 > make
