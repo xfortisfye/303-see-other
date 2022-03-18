@@ -25,7 +25,7 @@ Guide to installing dependencies
 
 -----
 ## Make
-1. [Install](https://sourceforge.net/projects/gnuwin32/files/make/3.81/make-3.81.exe/download?use_mirror=nchc&download=) Make for Windows
+1. [Install](https://sourceforge.net/projects/gnuwin32/files/make/3.81/make-3.81.exe/download?use_mirror=nchc&download=) Make
 2. Set up [environment path](https://github.com/xfortisfye/303-see-other/blob/main/dependencies.md#environment-path). 
    1. Usually value is `C:\Program Files (x86)\GnuWin32\bin`
 
@@ -54,7 +54,7 @@ Guide to installing dependencies
 
 Guidelines: https://pip.pypa.io/en/stable/installation/
 
-### Python packages
+### Install Python packages
 ```bash
 > cd \Path\to\root_folder
 > pip install -r requirements.txt
