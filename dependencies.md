@@ -54,6 +54,7 @@ Guide to installing dependencies
 
 Guidelines: https://pip.pypa.io/en/stable/installation/
 
+-----
 ### Python packages
 #### Install Python Packages
 ```bash
