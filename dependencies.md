@@ -54,10 +54,15 @@ Guide to installing dependencies
 
 Guidelines: https://pip.pypa.io/en/stable/installation/
 
-### Install Python packages
+### Python packages
+1. Install Python Packages
 ```bash
 > cd \Path\to\root_folder
 > pip install -r requirements.txt
+```
+2. Save Python Packages into `requirements.txt`
+```bash
+> pip freeze > requirements.txt
 ```
 
 -----
