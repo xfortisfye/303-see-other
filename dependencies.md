@@ -31,8 +31,8 @@ Guide to installing dependencies
 
 ### Run the program
 ```bash
-> cd C:\Path\to\root_folder
-> make
+cd C:\Path\to\root_folder
+make
 ```
 
 -----
@@ -68,6 +68,25 @@ pip freeze > requirements.txt
 ```
 
 -----
-
-
-
+### Virtualenv
+1. Install virtualenv
+```bash
+pip install virtualenv
+```
+2. Create virtual environment
+```bash
+virtualenv env
+```
+3. Start virtual environment
+    1. Linux 
+    ```bash
+    source env/bin/activate
+    ```
+    2. Windows
+    ```bash
+    source env/Scripts/activate
+    ```
+4. Stop virtual environment
+```bash
+deactivate
+```
