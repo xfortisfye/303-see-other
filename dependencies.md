@@ -20,13 +20,13 @@ Guide to installing dependencies
 ## Java
 #### Windows
 1. Download [installer](https://www.oracle.com/java/technologies/downloads)
-2. Set up [environment path](https://github.com/xfortisfye/303-see-other/blob/main/env-path.md)
+2. Set up [environment path](https://github.com/xfortisfye/303-see-other/blob/main/dependencies.md#environment-path)
     1. Usually value is `C:\Program Files\Java\jdk-13.0.2\bin`
 
 -----
-## Running Project using Makefile
+## Make
 1. [Install](https://sourceforge.net/projects/gnuwin32/files/make/3.81/make-3.81.exe/download?use_mirror=nchc&download=) Make for Windows
-2. Set up [environment path](https://github.com/xfortisfye/303-see-other/blob/main/env-path.md). Usually value is `C:\Program Files (x86)\GnuWin32\bin`
+2. Set up [environment path](https://github.com/xfortisfye/303-see-other/blob/main/dependencies.md#environment-path). Usually value is `C:\Program Files (x86)\GnuWin32\bin`
 3. To run the program
 ```bash
 > cd C:\Path\to\root_folder
@@ -41,7 +41,7 @@ Guide to installing dependencies
     1. [Python 3.9.10 64-bit](https://www.python.org/ftp/python/3.9.10/python-3.9.10-amd64.exe)
     2. [Python 3.8.5 64-bit](https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe)
     3. [Python 2.7.18 64-bit (last update of Python 2)](https://www.python.org/ftp/python/2.7.18/python-2.7.18.amd64.msi)
-2. Set up [environment path](https://github.com/xfortisfye/303-see-other/blob/main/env-path.md)
+2. Set up [environment path](https://github.com/xfortisfye/303-see-other/blob/main/dependencies.md#environment-path)
     1. Usually value is `C:\Python38\`
 
 -----
