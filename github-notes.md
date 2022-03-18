@@ -32,3 +32,8 @@
     4. Enter your GitHub credentials & select a location to save the repository
 
 -----
+
+## Git Push
+```bash
+git add . && git commit -m "update" && git push
+```
