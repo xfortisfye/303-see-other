@@ -13,6 +13,9 @@
 > sudo apt install git -y
 ```
 
+## Install gh
+1. Download [gh](https://github.com/cli/cli/blob/trunk/docs/install_linux.md) to save credentials.
+
 ## Clone GitHub Repo
 
 1. Command Line
