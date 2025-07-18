@@ -83,8 +83,12 @@ virtualenv env
     source env/bin/activate
     ```
     2. Windows
+    > First time user:
+    > ```powershell
+    > Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+    > ```
     ```bash
-    source env/Scripts/activate
+    .\env\Scripts\activate.ps1
     ```
 4. Stop virtual environment
 ```bash
